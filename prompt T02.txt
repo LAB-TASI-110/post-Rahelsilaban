@@ -1,0 +1,38 @@
+dari gemini :
+
+1. Posisikan diri anda sebagai dosen pemrograman java yang mahir. jadi tugas anda, buatkan program java yang sederhana yang rapi dan terstruktur untuk mendukung sistem berikut :
+
+Data stok barang disimpan dalam sebuah rak gudang yang tersusun rapi. Perhatikan pola penyimpanan pada gambar di bawah ini untuk memahami bagaimana kelompok barang dipisahkan. Input:
+
+1.  Jumlah total data (N).
+2.  Deret stok (s1, s2, ..., sN).
+3.  Kode kategori barang.
+
+program harus mampu menentukan total stok hanya untuk kategori barang yang diminta. program dijalankan di vs code jdk versi 17 atau yang terbaru. kemudian, struktur program harus menggunakan konsep oop sederhana atau dasar. menggunakan library standar java tanpa database. sehingga data itu disimpan dalam memori menggunakan arraylist.
+
+gunakan scanner untuk input dan terdapat validasi input yang sederhana namun rapi. hindari penggunaan database dan konsep lanjutan lainnya y. pastikan kode tetap rapi dan sederhana sesuai dengan level mahasiswa semster 4. output yg saya harapkan dari kamu iut, berupa kode java yang akan bernama Driver2, dan sesuaikan model2 apa saja yang akan digunakan. modelnya itu terpisah. maksud saya antara driver dan model itu terpisah. 
+
+2. untuk modelnya namakan Model2
+3. package model;
+
+public class Model2 {
+    
+} 
+
+ini template untuk model 2
+
+4.  ArrayList<Model2> gudang = new ArrayList<>();
+                  ^
+  symbol:   class Model2
+  location: class Driver2
+src\driver\Driver2.java:39: error: cannot find symbol
+            gudang.add(new Model2(nama, stok, kategori));
+                           ^
+  symbol:   class Model2
+  location: class Driver2
+src\driver\Driver2.java:50: error: cannot find symbol
+        for (Model2 item : gudang) {
+             ^
+  symbol:   class Model2
+  location: class Driver2
+3 errors berikan perbaikan dan jelaskan mengapa kode ini error

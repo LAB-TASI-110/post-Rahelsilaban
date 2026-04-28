@@ -1,0 +1,47 @@
+dari gemini :
+
+posisikan diri anda sebagai dosen pemrograman java yang berpengalaman mengajar mahasiswa semester 4. jadi terdapat soal sebagai berikut :
+
+Suatu sore yang cukup sibuk di kampus, dua mahasiswa IT Del, Ucok dan Butet, sedang duduk di depan asrama sambil memandangi beberapa dus besar yang tergeletak di samping mereka. Setelah menyelesaikan minggu yang penuh dengan tugas kuliah dan praktikum, mereka akhirnya punya waktu untuk mengirimkan beberapa barang ke kampung halaman masing-masing.
+
+“Waduh, kalau kita kirim lewat jasa biasa mahal juga ya,” kata Butet sambil menimbang salah satu dus miliknya.
+
+Ucok kemudian tersenyum dan menunjuk sebuah brosur yang ia temukan di papan pengumuman kampus.
+
+“Tenang saja, Tet. Katanya ada jasa pengiriman baru namanya Del-Express. Sistemnya transparan dan perhitungannya otomatis,” ujar Ucok.
+
+Butet langsung terlihat tertarik. “Wah, cocok nih. Kita kan anak IT, masa masih pakai hitung manual!”
+
+Mereka pun berjalan menuju kantor layanan Del-Express yang berada tidak jauh dari kampus. Setibanya di sana, mereka melihat sebuah papan besar berisi daftar ongkos kirim per kilogram ke beberapa kota tujuan. Petugas Del-Express kemudian menjelaskan bahwa sistem pengiriman mereka bekerja secara otomatis. Petugas hanya perlu memasukkan kode kota tujuan serta berat paket milik Butet, dan sistem akan menghitung seluruh biaya pengiriman termasuk berat paket milik Ucok. jadi itulah soalnya dan input yang dimasukkan nanti ialah : **Input**
+
+```bash
+MDN
+5
+JKT
+3
+BLG
+4
+END 
+dan output yang diharapkan ialah 
+**Output**
+Struk Pembayaran yang terdiri dari:
+Kota tujuan,
+Berat paket Butet,
+Berat paket Ucok,
+Total berat,
+Total ongkos kirim,
+Informasi promo yang diperoleh 
+ program dikembangkan dalam vs code JDK versi 17 atau versi terbaru serta hanya menggunakan library standar java tanpa database atau java disimpan dalam memori menggunakan array list. struktur program menggunakan konsep oop dasar dengan class yang sesuai dan main tau driver. format outpunya harus rapi dan konsisten secara objektif. hindari penggunaan database atau konsep lanjutan lainnya dan pastikan kodenya tetap sederhana, rapi dan sesuai dengan level mahasiswa semester 4.  respon yang diharapkan dari anda ialah program kode java secara lengkap, penjelasan singkat serta contoh tampilan saat program sudsh dijalankan.
+
+ 2. berikan cara mengcompilenya dan apakah tidak menggunakan model? atau memang hanya memakai driver
+ 3. package driver;
+
+public class Driver1 {
+    public static void main(String[] args) {
+        
+    }
+}
+dimulai dari seperti ini cetakannya
+
+4. model dan driver secara terpisah, seperti ini. berikan model yang sesuai apakah jumlahnya cuma 1. tolong sesuaikan
+5. 

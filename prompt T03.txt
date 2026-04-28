@@ -1,0 +1,21 @@
+dari gemini :
+
+1. Silahkan posisikan diri anda sebagai mahasiswa semester 4 yang sudah mahir dalam pemrograman java. buatlah sebuah probgram sederhana untuk mendukung sistem operasional di kafetaria IT Del menggunakan bahasa pemrograman Java. program ini harus memiliki fitur utama sebagai berikut :
+
+pembelian kkopi/minuman
+layanan print 
+pembelian merchandise (seperti topi, kaus del, tumbler, gantungan kunci dan lain lain)
+data pesanan (nama pelanggan, jenis pesanan, jumlah, total harga dll)
+waktu pemesanan dan kontak pelanggan. 
+
+program dikembangakn dan dijalankan dengn vs code dgn jdk versi 17 atau yg terbarfu serta hamya menggunakan library standar java tanpa database. data disimpn dalam memori menggunakan arraylist ya. 
+
+struktur program harus menggunakan konsep oop dsar dengan class yang sesuai. alur logika harus diimplementasikan secara rinci. contoh user nnti login secara sederhana (username aja)
+kemudian masuk ke pilihan menu, apakah beli produk atau liat daftar produk dan harga. jika memilih menu pembelian berarti user memilih jenis produk kemudian memasukkn jumlah kemudian mengisi kontak kemudian sistem akan menampilkan total harga dan menyimpn transaksi. jika memilih lihat daftar produk sistem akan menampilkan daftar prooduk dabn harga2nya. nanti untuk masalah harga tentukan aja yg standar ok?. format output nnti harus rapi, dan konsisten yaitu menu utama, daftar produk, format input pemesanan dan ringkasan transaksi. kita gunakan scanner utk input (jumlah tdk boleh negatif ), pilihan menu valid. 
+
+2. mksdku untuk clas itu dlm 1 model tp untuk driver 1 jkg 
+3. ubah nama driver menjadi Driver3
+4. Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+
+        at driver.Driver3.main(Driver3.java:10)
+ tlong perbaiki error yg terdapat saat dicompile
